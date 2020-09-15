@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ruda/v13/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsh_50qk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.homePage {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.mealBox {
+  text-align: center;
+  border: 4px solid #4F8FAA;
+  margin-top: 105px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 50%;
+  height: 100%;
+  font-family: 'Ruda';
+}
+
+.cocktailBox {
+  text-align: center;
+  border: 4px solid #FB85CC;
+  margin-top: 105px;
+  margin-right: 5px;
+  width: 50%;
+  height: 100%;
+  font-family: 'Ruda';
+}
+
+.imgM {
+  object-fit: scale-down;
+  margin-top: 120px;
+  width: 170px;
+  height: 170px;
+}
+
+.imgC {
+  object-fit: scale-down;
+  margin-top: 120px;
+  width: 170px;
+  height: 170px;
+}
+
+.cocktailGo {
+  background-color: #F8C7E4;
+  border:#F8C7E4;
+  font-family: 'Ruda';
+  font-size: 25px;
+  margin-bottom: 26%;
+  cursor:pointer;
+}
+
+.mealGo {
+  background-color: #65BACD;
+  border:#F8C7E4;
+  font-family: 'Ruda';
+  font-size: 25px;
+  margin-bottom: 26%;
+  cursor:pointer;
+}
