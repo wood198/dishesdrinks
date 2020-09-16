@@ -22,7 +22,7 @@
   float: left;
 }
 
-.navigation {
+.mnavigation {
   color: #FFFFFF;
   font-family: 'Ruda';
   font-size: 25px;
@@ -35,4 +35,27 @@
   cursor:pointer;
   overflow: hidden;
   outline:none;
+}
+
+.cnavigation {
+  color: #FFFFFF;
+  font-family: 'Ruda';
+  font-size: 25px;
+  float: right;
+  margin-top: 48px;
+  margin-right: 20px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.mnavigation:hover {
+  color: #4F8FAA;
+}
+
+.cnavigation:hover {
+  color: #FB85CC;
 }

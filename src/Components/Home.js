@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import { Link } from "react-router-dom";
 import '../Css/Home.css';
 
 export default class Home extends React.Component {
@@ -15,18 +16,23 @@ export default class Home extends React.Component {
         <Header/>
         <div className="homePage">
           <div className="mealBox">
-            <img className="imgM" src={require(`../Images/PinClipart.com_dinner-plates-clipart_5715674.png`)} alt="Meals Clipart" />
+            <img className="img" src={require(`../Images/PinClipart.com_dinner-plates-clipart_5715674.png`)} alt="Meals Clipart" />
             <h1>Cook a New Meal!</h1>
-            <button className="mealGo">Go!</button>
+            <Link to="/MealCategories">
+              <button className="mealGo">Go!</button>
+            </Link>
           </div>
           <div className="cocktailBox">
-            <img className="imgC" src={require(`../Images/PinClipart.com_catering-clipart_361498.png`)} alt="Cocktails Clipart" />
+            <img className="img" src={require(`../Images/PinClipart.com_catering-clipart_361498.png`)} alt="Cocktails Clipart" />
             <h1>Try New Cocktails!</h1>
-            <button className="cocktailGo">Go!</button>
+            <Link to="/CocktailCategories">
+              <button className="cocktailGo">Go!</button>
+            </Link>
           </div>
         </div>
       </div>
     );
   }
+
 
 }

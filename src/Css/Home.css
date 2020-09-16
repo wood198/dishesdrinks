@@ -9,6 +9,7 @@
 .homePage {
   display: flex;
   justify-content: flex-start;
+  height: 100%;
 }
 
 .mealBox {
@@ -32,16 +33,9 @@
   font-family: 'Ruda';
 }
 
-.imgM {
+.img {
   object-fit: scale-down;
-  margin-top: 120px;
-  width: 170px;
-  height: 170px;
-}
-
-.imgC {
-  object-fit: scale-down;
-  margin-top: 120px;
+  padding: 130px;
   width: 170px;
   height: 170px;
 }
@@ -51,7 +45,7 @@
   border:#F8C7E4;
   font-family: 'Ruda';
   font-size: 25px;
-  margin-bottom: 26%;
+  margin-bottom: 28%;
   cursor:pointer;
 }
 
@@ -60,6 +54,6 @@
   border:#F8C7E4;
   font-family: 'Ruda';
   font-size: 25px;
-  margin-bottom: 26%;
+  margin-bottom: 28%;
   cursor:pointer;
 }
