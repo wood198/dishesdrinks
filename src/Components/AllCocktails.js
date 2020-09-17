@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './Header';
 import CocktailSideBar from './CocktailSideBar';
+import '../Css/CocktailCategories.css';
 
-export default class CocktailRecipe extends React.Component {
+export default class AllCocktails extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,14 +12,11 @@ export default class CocktailRecipe extends React.Component {
 
   render() {
     return(
-      <div id="parent">
-        <div id="top">
-          <Header/>
-        </div>
-        <div id="narrow">
-          <CocktailSideBar/>
-        </div>
-        <div id="wide">
+      <div>
+        <Header/>
+        <CocktailSideBar/>
+        <div className="ccContainer">
+          <h3>Let's Get You a Drink!</h3>
         </div>
       </div>
     );
