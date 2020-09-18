@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 import MealSideBar from './MealSideBar';
 import '../Css/MealCategories.css'
 
@@ -11,10 +10,15 @@ export default class MealCategories extends React.Component {
     };
   }
 
+  componentDidMount(){
+    this.props.loadCategories(this.props.mealSide);
+    console.log(this.props.mealSide);
+    console.log(this.props.categories);
+  }
+
   render() {
     return(
       <div>
-        <Header/>
         <MealSideBar/>
         <div className="mcContainer">
           <h3>Find Your Next Meal!</h3>
